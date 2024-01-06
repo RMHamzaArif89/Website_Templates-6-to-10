@@ -1,0 +1,482 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-side {
+    width: 250px;
+    height: 755px;
+    z-index: 5;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background: black;
+    
+    animation: slide 0.8s;
+    animation-delay: 0s;
+    display: none;
+
+}
+
+@keyframes slide {
+    0% {
+        left: -250px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+
+
+.nav-text {
+
+
+    color: rgba(255, 255, 255, 0.952);
+    font-size: bold;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 40px 35px;
+}
+
+
+
+
+.list {
+    margin-top: 5%;
+}
+
+.list li {
+    cursor: pointer;
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(253, 252, 252, 0.938);
+    font-size: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.list li:hover {
+    background: #949393bb;
+
+}
+
+.close{
+    font-weight: bold;
+    background: #49494962;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-1 {
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(250, 249, 249, 0.932);
+    color: rgb(14, 13, 13);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+
+    position: fixed;
+    z-index: 1;
+}
+
+.nav {
+    width: 10%;
+    height: 98%;
+    margin-top: 2%;
+}
+
+
+.nav a {
+    text-decoration: none;
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    color: rgb(19, 19, 19);
+}
+
+.m-text {
+    width: 30%;
+    height: 98%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.m-text2 {
+    width: 10%;
+    height: 98%;
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.con-2 {
+
+    width: 100%;
+    height: 620px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.col {
+    margin-left: 1.2%;
+    width: 20%;
+    height: 100%;
+
+}
+
+.con2-img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.con2-text {
+    height: 30%;
+    width: 100%;
+
+}
+
+
+
+.con2-img1 {
+    background-image: url('/images/img-1.jpg');
+    background-size: 100% 100%;
+
+}
+
+.con2-img2 {
+    background-image: url('/images/img-2.jpg');
+    background-size: 100% 100%;
+
+}
+
+.con2-img3 {
+    background-image: url('/images/img-3.jpg');
+    background-size: 100% 100%;
+
+}
+
+.con2-img4 {
+    background-image: url('/images/img-4.jpg');
+    background-size: 100% 100%;
+
+}
+
+
+
+
+.con2-t {
+    margin-top: 5%;
+    font-size: 1.5rem;
+
+    color: rgb(70, 69, 69);
+    text-align: center;
+}
+
+.con2-t2 {
+    font-size: 1rem;
+    color: rgba(121, 119, 119, 0.849);
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.con-3 {
+    margin-top: 2%;
+    width: 100%;
+    height: 620px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.con3-col {
+    margin-left: 1.2%;
+    width: 20%;
+    height: 100%;
+
+}
+
+.con3-img {
+    width: 100%;
+    height: 70%;
+
+}
+
+.con3-text {
+    height: 30%;
+    width: 100%;
+
+}
+
+
+
+.con3-img1 {
+    background-image: url('/images/con3-img.jpg');
+    background-size: 100% 100%;
+
+}
+
+.con3-img2 {
+    background-image: url('/images/con3-img2.jpg');
+    background-size: 100% 100%;
+
+}
+
+.con3-img3 {
+    background-image: url('/images/con3-img3.jpg');
+    background-size: 100% 100%;
+
+}
+
+.con3-img4 {
+    background-image: url('/images/con3-img4.jpg');
+    background-size: 100% 100%;
+
+}
+
+
+
+
+.con3-t {
+    margin-top: 5%;
+    font-size: 1.5rem;
+
+    color: rgb(70, 69, 69);
+    text-align: center;
+}
+
+.con3-t2 {
+    font-size: 1rem;
+    color: rgba(121, 119, 119, 0.849);
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con-4 {
+
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.con4-text {
+    width: 55%;
+    height: 5%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+.con4-img {
+    width: 56%;
+    height: 65%;
+    margin-top: 2%;
+    background-image: url('/images/bg-3.jpg');
+    background-size: 100% 100%;
+}
+
+.con4-text2 {
+font-size: 1.3rem;
+font-weight: bold;
+    width: 60%;
+    text-align: center;
+    margin-top: 1%;
+    height: 2%;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.con4-text3 {
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: center;
+    margin-top: 1%;
+    height: 2%;
+    color: rgba(46, 46, 46, 0.945);
+}
+
+.con4-text4 {
+    font-size: 1rem;
+    width: 60%;
+    text-align: center;
+    margin-top: 1%;
+    height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width: 600px) {
+    html{
+        font-size:10px;
+
+    }
+    .con-1{
+        height: 35px;
+    }
+
+    div.con-2 {
+
+        width: 100%;
+        height: 1240px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    
+    }
+    div.con-3{
+        width: 100%;
+        height: 1240px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .col {
+        margin-left: 1.2%;
+        width: 80%;
+        height: 100%;
+        
+    
+    }
+    
+
+ 
+
+}
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+        html{
+            font-size: 12px;
+        }
+        .con-1{
+            height: 40px;
+        }
+       
+       
+    
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+        html{
+            font-size: 14px;
+        }
+        .con-1{
+            height: 45px;
+        }
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+        html{
+            font-size: 16px;
+
+            
+        }
+        .con-1{
+            height: 55px;
+        }
+       
+       
+       
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+   
+    }

@@ -1,0 +1,218 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    padding: 0;margin: 0;
+}
+        .con-1{
+            width: 100%;
+            height: 600px;
+            background-image: url('/images/bg-5.jpg');
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div.text{
+            margin-top:5%;
+            width: 18%;
+            
+            text-align: center;
+            padding: 2%;
+            border: 1px solid rgba(189, 184, 184, 0.87);
+        
+        }
+        div.text1{
+            font-size: 2rem;
+            letter-spacing: 6px;
+            color: rgba(29, 195, 236, 0.493)
+
+        }
+        .text2{
+            color: rgba(11, 214, 250, 0.973);;
+            font-size: 2rem;
+        }
+        div.text:hover{
+            background:black;
+            cursor: pointer;
+           color: white;
+        }
+
+
+
+
+
+
+        
+
+
+
+
+        div.con-2{
+            margin-top: 2%;
+            width: 100%;
+            height: 2700px;
+            background:white;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        div.con-2 .con2-main{
+            width: 66%;
+            height: 100%;
+            
+        }
+        div.img-1{
+            width: 100%;
+            height: 20%;
+            margin-bottom: 1%;
+          background-image: url('/images/img-a.jpg');
+          background-size: 100% 100%;
+        }
+        div.img-2{
+            width: 100%;
+            height: 20%;
+            margin-bottom: 1%;
+          background-image: url('/images/img-b.jpg');
+          background-size: 100% 100%;
+        }
+        div.img-3{
+            width: 100%;
+            height: 20%;
+            margin-bottom: 1%;
+          background-image: url('/images/img2.jpg');
+          background-size: 100% 100%;
+        }
+        div.img-4{
+            width: 100%;
+            height: 20%;
+            margin-bottom: 1%;
+          background-image: url('/images/img-h.jpg');
+          background-size: 100% 100%;
+        }
+        div.img-5{
+            width: 100%;
+            height: 20%;
+            margin-bottom: 1%;
+          background-image: url('/images/img-g.jpg');
+          background-size: 100% 100%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        div.footer{
+            margin-top: 5%;
+            width: 100%;
+            height: 200px;
+        background: rgba(233, 231, 231, 0.788);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .footer .list{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+        .footer li{
+            list-style-type: none;
+            display: inline-block;
+        margin-left:0.3%;
+        
+        }
+    .footer li .bi{
+      margin-left: 0.3%;
+      font-size: medium;
+        
+    }
+    div.text{
+        margin-top: 1%;
+        font-size: 2rem;
+        font-weight: bold;
+        color: rgba(12, 234, 241, 0.61);
+        
+    }
+
+
+
+
+
+
+    
+
+@media (min-width:300px) and (max-width: 600px) {
+    html{
+        font-size:8px;
+    }
+    div.text{
+        width: 35%;
+        background: #000;
+    }
+
+
+ 
+
+}
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+        html{
+            font-size: 9px;
+        }
+        div.text{
+            width: 26%;
+        }
+       
+       
+    
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) and (min-width:768px){
+        html{
+            font-size: 10px;
+        }
+        div.text{
+            width: 24%;
+            background: #000;
+        }
+     
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) and (max-width:1200px){
+        html{
+            font-size: 12px;
+
+            
+        }
+       
+       
+       
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+   
+    }

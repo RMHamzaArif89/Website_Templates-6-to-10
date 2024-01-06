@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div.nav-bar {
+    width: 100%;
+    height: 55px;
+    background: white;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid rgba(236, 233, 233, 0.808);
+}
+
+div.l {
+    float: left;
+    width: 50%;
+    height: 80%;
+
+}
+
+div.l p {
+    width: 40%;
+
+    margin: 1.5% 0% 0% 2%;
+    padding: 1.2%;
+    color: rgba(92, 91, 91, 0.925);
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+div.r {
+    float: right;
+    width: 50%;
+
+}
+
+
+div.r li {
+    float: right;
+    width: 15%;
+    height: 90%;
+    padding: 1.5%;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 2%;
+    cursor: pointer;
+    font-size: 1.1rem;
+
+}
+
+
+div.r li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(83, 82, 82, 0.925);
+    display: inline-block;
+}
+
+
+div.r li:hover,
+div.l p:hover {
+    background: rgba(207, 204, 204, 0.747);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+div.con-1 {
+    width: 100%;
+    height: 720px;
+    background-image: url('/images/con1-img4.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+p.con1-text {
+    position: relative;
+    top: 90%;
+    font-size: 2.4rem;
+    color: rgba(54, 53, 53, 0.678);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.con-2 {
+    margin-top: 70px;
+    width: 100%;
+    height: 740px;
+    background: white;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div.con-2 .container-2 {
+    width: 75%;
+    height: 88%;
+    margin-top: 2%;
+}
+
+div.con2-img {
+    float: left;
+    width: 46%;
+    height: 100%;
+    background-image: url('/images/con2-img.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+div.con2-text {
+    float: left;
+    width: 52%;
+    height: 100%;
+    background: white;
+
+}
+
+.h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.h2 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.h3,
+.h4 {
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 1.2rem;
+
+}
+
+.con2-hr {
+    width: 80%;
+    color: rgba(184, 180, 180, 0.918);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.con-3 {
+    margin-top: 70px;
+    width: 100%;
+    height: 790px;
+    background: white;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div.con-3 .container-3 {
+    width: 75%;
+    height: 90%;
+    margin-top: 1%;
+}
+
+div.con3-img {
+    float: left;
+    width: 46%;
+    height: 100%;
+    background-image: url('/images/con3-img.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+div.con3-text {
+    float: left;
+    width: 52%;
+    height: 100%;
+    background: white;
+
+}
+
+.con3-h1{
+text-align: center;
+font-size: 2.5rem;
+color: black;
+width: 100%;
+height: 15%;
+}
+.row{
+width: 90%;
+margin-left: 5%;
+height: 15%;
+font-size: 1.2rem;
+
+
+}
+.row-h2{
+margin: 1%;
+letter-spacing: 4px;
+}
+.row-h3{
+margin: 1%;
+font-size: 0.9rem;
+color: rgba(128, 128, 128, 0.842);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 8px;
+    }
+    div.nav-bar{
+        height: 28px;
+        background: #000;
+    }
+
+}
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media (max-width:768px) and (min-width:600px) {
+        html{
+            font-size: 10px;
+        }
+        div.nav-bar{
+            height: 35px;
+            background: red;
+        }
+    
+    
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media(max-width:992px) {
+        html{
+            font-size: 12px;
+        }
+        div.nav-bar{
+            height: 45px;
+        }
+    
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        html{
+            font-size: 14px;
+            
+        }
+        div.nav-bar{
+            height: 50px;
+        }
+    
+    }
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+     div.nav-bar{
+        height: 55px;
+     }
+    }
